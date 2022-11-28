@@ -1,0 +1,3 @@
+this is a text file to check 
+this is a second line
+this is a thrid line
