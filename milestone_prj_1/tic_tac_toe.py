@@ -101,12 +101,12 @@ def play_game():
 
                if win_check(tic_board , p1):
                     display_board(tic_board)
-                    print(f" congratulation {p} you have won the game!!!!")
+                    print(f"Congratulation {p} has won the game!!!!")
                     game_on = False
                else:
                     if full_board_check(tic_board):
                         display_board(tic_board)
-                        print(" the game is drawn ")
+                        print("The game is drawn!")
                         break   
                     else:
                         p = 'player 2'
@@ -118,12 +118,12 @@ def play_game():
 
                 if win_check(tic_board , p2):
                     display_board(tic_board)
-                    print(f"congratulation {p} hass won the game!!!")
+                    print(f"Congratulation {p} has won the game!!!")
                     game_on = False
                 else:
                     if full_board_check(tic_board):
                         display_board(tic_board)
-                        print("the game is drawn!")
+                        print("The game is drawn!")
                         break
                     else:
                         p = 'player 1'
