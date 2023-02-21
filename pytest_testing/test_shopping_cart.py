@@ -8,7 +8,6 @@ import pytest
 
 """ 
     if we have to make some generic line that does the same thing in every function we can  do that using the fixture in pytest 
-
 """
 @pytest.fixture
 def cart():
